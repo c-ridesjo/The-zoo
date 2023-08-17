@@ -15,7 +15,7 @@ const AnimalPage: React.FC = () => {
     }, [id]);
 
     return (
-        <div>
+        <div className="animal-page-container">   
             {animal && <AnimalDetail animal={animal} />}
         </div>
     );

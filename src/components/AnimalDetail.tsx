@@ -15,7 +15,7 @@ const AnimalDetail: React.FC<Props> = ({ animal }) => {
     };
 
     return (
-        <div style={isFed ? { background: 'green' } : {}}>
+        <div style={isFed ? { background: 'rgb(181, 241, 155)' } : {}} className="animal-detail" >
             <h2>{animal.name}</h2>
             <p>{animal.description}</p>
             <p>Last Fed: {fedTime?.toLocaleString() || "Not fed yet"}</p>

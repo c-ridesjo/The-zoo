@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import AnimalBox from '../components/AnimalBox';
 import { Animal } from '../models/Animals';
-
+import Header from '../components/Header';
 
 const HomePage: React.FC = () => {
     const [animals, setAnimals] = useState<Animal[]>([]);
@@ -30,10 +30,13 @@ const HomePage: React.FC = () => {
     }, []);
 
     return (
-        <div className="container">
-            {animals.map(animal => (
-                <AnimalBox key={animal.id} animal={animal} />
-            ))}
+        <div>
+          <Header />
+          <div className="container">
+              {animals.map(animal => (
+                  <AnimalBox key={animal.id} animal={animal} />
+              ))}
+          </div>
         </div>
     );
 }
