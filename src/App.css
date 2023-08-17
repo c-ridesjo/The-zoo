@@ -17,6 +17,10 @@
 }
 
 .animal-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   box-sizing: border-box;
   width: calc(50% - 10px);
   height: 25rem;
@@ -24,7 +28,6 @@
   padding: 1rem 2rem;
   margin-bottom: 3rem;
   background-color: rgb(210, 244, 195);
-
 }
 
 .animal-box:hover {
@@ -35,7 +38,26 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-  height: 50%; 
+  width: 65%;
+  height: 65%; 
   object-fit: contain;
+}
+
+a {
+  text-decoration: none; 
+  color: inherit;
+  display: block;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+p {
+  color: blue;
+  font-size: 2rem;
 }
