@@ -18,6 +18,4 @@ const AnimalBox: React.FC<AnimalBoxProps> = ({ animal }) => {
     );
 }
 
-
-
 export default AnimalBox;

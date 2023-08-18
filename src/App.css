@@ -59,7 +59,7 @@
   height: 65%; 
   height: 20rem;
   object-fit: contain;
-  object-position: center top;
+  object-position: center top;  
 }
 
  a {
@@ -71,7 +71,6 @@
 }
 
 .animal-detail { /* AnimalPage */
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -99,7 +98,7 @@
   transition-duration: 0.4s;
   cursor: pointer;
   font-size: 1.5rem;
-  margin-top: 1rem;
+  margin-top: 3rem;
 }
 
 .animal-detail button:hover {
@@ -121,7 +120,7 @@
 
 h2 {
   font-size: 3rem;
-  margin-bottom: 0rem;
+  font-family:Georgia, 'Times New Roman', Times, serif
   color: black;
   margin-bottom: 1rem;
 }
