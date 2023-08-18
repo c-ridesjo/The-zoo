@@ -11,8 +11,8 @@ const AnimalBox: React.FC<AnimalBoxProps> = ({ animal }) => {
         <Link to={`/animal/${animal.id}`} className="animal-box">
             <div>
                 <h2>{animal.name}</h2>
-                <p>{animal.description}</p>
                 <img className="img" src={animal.imageUrl} alt={animal.name} />
+                <p>{animal.description}</p>
             </div>
         </Link>
     );
