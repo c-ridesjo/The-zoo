@@ -17,7 +17,7 @@ const AnimalPage: React.FC = () => {
     return (
         <div className="animal-page-container">   
             {animal && <AnimalDetail animal={animal} />}          
-            <Link to="/">Back to homepage</Link>
+            <Link to="/">Tillbaka till startsidan</Link>
         </div>
     );
     
