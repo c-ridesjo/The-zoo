@@ -12,7 +12,7 @@ const AnimalBox: React.FC<AnimalBoxProps> = ({ animal }) => {
             <div className="animal-box">
                 <h2>{animal.name}</h2>
                 <img className="img" src={animal.imageUrl} alt={animal.name} />
-                <p>{animal.description}</p>
+                <p>{animal.shortDescription}</p>
             </div>
         </Link>
     );

@@ -40,7 +40,7 @@
   align-items: center;
   box-sizing: border-box;
   width: 100%;
-  height: 30rem;
+  height: 40rem;
   border: 1px solid #ccc;
   padding: 1rem 2rem;
   margin-bottom: 3rem;
@@ -75,8 +75,8 @@
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  width: 40rem;
-  height: 25rem;
+  width: 60rem;
+  height: 40rem;
   border: 1px solid #632c2c;
   border-radius: 8px;
   padding: 1rem 2rem;
@@ -98,7 +98,7 @@
   transition-duration: 0.4s;
   cursor: pointer;
   font-size: 1.5rem;
-  margin-top: 3rem;
+  margin-top: 1rem;
 }
 
 .animal-detail button:hover {
@@ -106,9 +106,14 @@
   border: 2px solid #1a6b1c;
 }
 
+.status-fed {
+  font-weight:bold;
+  margin-top: 2rem;
+}
+
 .not-fed {
-  color: rgb(63, 6, 154);
-  font-weight: bold;
+  color: rgb(194, 13, 10);
+
   margin-left: 0.5rem;
 }
 
@@ -126,6 +131,6 @@ h2 {
 }
 
 p {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   padding-top: 1rem;
 }

@@ -1,6 +1,7 @@
 export interface Animal {
     id: number;
     name: string;
-    description: string;
+    shortDescription: string;
+    longDescription: string;
     imageUrl: string; 
 }
