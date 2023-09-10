@@ -11,6 +11,7 @@ const AnimalPage: React.FC = () => {
     useEffect(() => {
         const storedAnimals: Animal[] = JSON.parse(localStorage.getItem('animals') || '[]');
         const fetchedAnimal = storedAnimals.find(a => a.id.toString() === id);
+        
         setAnimal(fetchedAnimal || null);
     }, [id]);
 

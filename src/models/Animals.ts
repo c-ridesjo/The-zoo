@@ -4,4 +4,5 @@ export interface Animal {
     shortDescription: string;
     longDescription: string;
     imageUrl: string; 
+    fedTime?: Date;
 }
